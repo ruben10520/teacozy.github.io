@@ -1,0 +1,168 @@
+
+body {
+    background-color: #383D3B;
+    color: seashell;
+    font-family: 'Helvetica';
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+}
+
+li, a {
+    text-decoration: none;
+}
+
+.header {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+nav {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    transition: all 0.3s ease 0s;
+    color: seashell;
+}
+
+nav li a:hover {
+    color: wheat;
+}
+
+#mission {
+    margin: auto;
+    display: flex;
+    width: 1200px;
+    height: 700px;
+    background-image: url('img-mission-background.webp');
+    align-items: center;
+    justify-content: center;
+}
+
+.statement {
+    align-items: center;
+    justify-content: center;
+    background-color: #383D3B;
+    opacity: 0.9;
+    width: 1200px;
+    text-align: center;
+}
+
+#tea {
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+}
+
+.info {
+    text-align: center;
+    padding-top: 50px;
+    line-height: 2;
+}
+
+.tea {
+    margin: auto; 
+    padding-top: 20px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.box img {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.menu {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.box {
+    padding: 10px;
+}
+
+#locations {
+    padding-top: 50px;
+}
+
+.loca {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 500px;
+    background-image: url('img-locations-background.webp');
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.loca h4 {
+    text-align: center;
+
+}
+
+.locations {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.location {
+    width: 300px;
+    background-color: #383D3B;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    opacity: 1;
+    line-height: 2;
+    margin: 15px;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+footer {
+    padding-top: 50px;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+
+.contact {
+    display: block;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.copyright {
+    margin-left: 10px;
+    margin-bottom: -65px;
+}
